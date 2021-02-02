@@ -1,3 +1,5 @@
+import _ from 'lodash'
+
 function componet() {
   const element = document.createElement('div')
   const array = ['hello', 'webpack']
