@@ -8,6 +8,11 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: outputPath
+  },
+  devServer: {
+    // 起動時に参照するパス
+    contentBase: outputPath
+    
   }
 
 }
