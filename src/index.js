@@ -1,4 +1,5 @@
 import _ from 'lodash'
+import { Nijou } from './utilities'
 
 function componet() {
   const element = document.createElement('div')
@@ -8,3 +9,5 @@ function componet() {
 }
 
 document.body.appendChild(componet());
+
+console.log(Nijou(3))
