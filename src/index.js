@@ -1,5 +1,11 @@
 import _ from 'lodash'
-import { Nijou } from './utilities'
+
+/* すべてのexportをimport */
+// import * as utilities from './utilities'
+/* 指定してimport */
+// import {Name, Nijou}  from './utilities'
+/* default import */
+import Lion from './utilities'
 
 function componet() {
   const element = document.createElement('div')
@@ -10,4 +16,6 @@ function componet() {
 
 document.body.appendChild(componet());
 
-console.log(Nijou(3))
+// console.log(utilities.Nijou(31))
+// console.log(utilities.Name)
+console.log(Lion.say())
