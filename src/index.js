@@ -14,8 +14,9 @@ function componet() {
   element.innerHTML = _.join(array, ' ')
   return element;
 }
-
 document.body.appendChild(componet());
+document.body.classList.add('bg');
+
 
 // console.log(utilities.Nijou(31))
 // console.log(utilities.Name)
