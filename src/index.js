@@ -6,6 +6,7 @@ import _ from 'lodash'
 // import {Name, Nijou}  from './utilities'
 /* default import */
 import Lion from './utilities'
+import './style.css'
 
 function componet() {
   const element = document.createElement('div')
@@ -13,8 +14,9 @@ function componet() {
   element.innerHTML = _.join(array, ' ')
   return element;
 }
-
 document.body.appendChild(componet());
+document.body.classList.add('bg');
+
 
 // console.log(utilities.Nijou(31))
 // console.log(utilities.Name)

@@ -9,6 +9,14 @@ module.exports = {
     filename: 'main.js',
     path: outputPath
   },
+  module: {
+    rules:[
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  },
   devServer: {
     // 起動時に参照するパス
     contentBase: outputPath
