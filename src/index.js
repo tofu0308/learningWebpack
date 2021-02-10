@@ -20,4 +20,4 @@ document.body.appendChild(componet());
 // console.log(utilities.Nijou(31))
 // console.log(utilities.Name)
 console.log(Lion.say())
-console.log(style)
+console.log(style.toString())
