@@ -10,7 +10,7 @@ module.exports = {
     path: outputPath
   },
   module: {
-    rule:[
+    rules:[
       {
         test: /\.css$/,
         use: ['css-loader']
