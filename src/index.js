@@ -8,6 +8,8 @@ import _ from 'lodash'
 import Lion from './utilities'
 import './style.css'
 
+import logo from './logo.png'
+
 function componet() {
   const element = document.createElement('div')
   const array = ['hello', 'webpack', '!!!']
@@ -21,3 +23,7 @@ document.body.classList.add('bg');
 // console.log(utilities.Nijou(31))
 // console.log(utilities.Name)
 console.log(Lion.say())
+
+const image = new Image()
+image.src = logo
+document.body.appendChild(image);
