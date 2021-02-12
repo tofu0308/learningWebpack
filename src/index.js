@@ -7,6 +7,7 @@ import _ from 'lodash'
 /* default import */
 import Lion from './utilities'
 import './style.css'
+import './style.scss'
 
 import logo from './logo.png'
 
